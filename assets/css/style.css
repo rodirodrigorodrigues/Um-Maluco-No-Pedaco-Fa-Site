@@ -24,7 +24,7 @@
     color: #FFD700;
     font-family: 'Verdana', sans-serif;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header__nav ul {
@@ -43,4 +43,20 @@
 
 .header__nav a:hover {
     color: #ffffff;
+}
+
+/* hero section */
+
+.hero__section {
+    background-color: #800080;
+    /* Center the hero image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Avoid overflow */
+.hero__image {
+    max-width: 100%;
+    height: auto;
 }
